@@ -1,0 +1,53 @@
+.container-fluid {
+    padding: 0 100px 0 100px;
+}
+
+.nav-item .nav-link:hover {
+    color: red;
+}
+
+.logo-s {
+    text-align: center;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+order-wi .logo-s .logo-t {
+    display: inline-block;
+}
+
+.logo-s .fsearch {
+    margin-right: 100px;
+    position: absolute;
+    right: 0;
+    top: calc((100% - 36px) / 2);
+    border: none;
+}
+
+.fsearch input {
+    width: 300px;
+    height: 36px;
+    border: none;
+    border-bottom: 1px solid #e0e0e0;
+    padding-left: 0;
+    border-radius: 0;
+    font-size: 14px;
+    transition: all 0.5s linear;
+}
+
+.fsearch button {
+    border: initial;
+    height: 36px;
+    line-height: 36px;
+    position: absolute;
+    width: 32px;
+    text-align: center;
+    background: url(../images/ic-search-30.png) no-repeat;
+    background-position: center;
+    right: 0;
+}
+
+img.thumbnail {
+    width: 500px;
+    height: 300px;
+}
